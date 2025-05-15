@@ -1,0 +1,59 @@
+{
+  "dataRoles": [
+    {
+      "displayName": "Actual Level",
+      "name": "ActualLevel",
+      "kind": "Measure",
+      "requiredTypes": [
+        { "numeric": true },
+        { "integer": true }
+      ],
+      "preferredTypes": [ { "numeric": true } ]
+    },
+    {
+      "displayName": "Maximum Level",
+      "name": "MaxLevel",
+      "kind": "Measure",
+      "requiredTypes": [
+        { "numeric": true },
+        { "integer": true }
+      ],
+      "preferredTypes": [ { "numeric": true } ]
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "conditions": [
+        {
+          "ActualLevel": { "max": 1 },
+          "MaxLevel": { "max": 1 }
+        }
+      ],
+      "categorical": {
+        "values": {
+          "select": [
+            { "bind": { "to": "ActualLevel" } },
+            { "bind": { "to": "MaxLevel" } }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "fillSettings": {
+      "displayName": "Fill Settings",
+      "properties": {
+        "fillColor": {
+          "displayName": "Fill Color",
+          "type": { "fill": { "solid": { "color": true } } }
+        },
+        "opacity": {
+          "displayName": "Opacity",
+          "type": { "numeric": true }
+        }
+      }
+    }
+  },
+  "privileges": [],
+  "supportsHighlight": true
+}

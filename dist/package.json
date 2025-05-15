@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Mohammad AlTerkait","email":"m.terkait@knpc.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/oilTankGaugeCCB9A5F1AD5E4CAA920605BB6E6F4519.pbiviz.json"
+			}
+		],
+		"visual": {"name":"oilTankGauge","displayName":"OilTankGauge","guid":"oilTankGaugeCCB9A5F1AD5E4CAA920605BB6E6F4519","visualClassName":"Visual","version":"1.0.0.0","description":"This Visual is to represent Oil Tanks Level, with Max, Min, Target and Actual Level or Readings.","supportUrl":"https://www.knpc.com","gitHubUrl":""},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

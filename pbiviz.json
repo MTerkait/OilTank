@@ -1,0 +1,24 @@
+{
+  "visual": {
+    "name": "oilTankGauge",
+    "displayName": "OilTankGauge",
+    "guid": "oilTankGaugeCCB9A5F1AD5E4CAA920605BB6E6F4519",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "This Visual is to represent Oil Tanks Level, with Max, Min, Target and Actual Level or Readings.",
+    "supportUrl": "https://www.knpc.com",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": {
+    "name": "Mohammad AlTerkait",
+    "email": "m.terkait@knpc.com"
+  },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}
